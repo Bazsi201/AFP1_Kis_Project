@@ -32,6 +32,9 @@ A megrendelő ügyfele otthon, vagy akár a buszon ülve is képes információt
 
 ## 9. Forgatókönyvek
 
+Szeptember van és jönnek az új diákok. A szülő segítségével felviszik a szükséges adatokat, Így megspórolva a felesleges papírpocsékolást.
+Az admin ezeket módosítani és újabb adatokkal is tudja bővíteni az adatbázist. Bárhol is legyen, akár az iskolában, akár otthon.
+
 ## 10. Funkció - követelmény megfeleltetése
 
 | Id | Követelmény | Funkció |
