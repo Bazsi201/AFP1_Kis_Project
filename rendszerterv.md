@@ -46,9 +46,12 @@ A Top G's nevű csapat feladata, egy olyan alkalmazás fejlesztése, ami egy isk
 
 ### Nemfunkcionális követelmények
 
-| ID | Megnevezés | Leírás |
-| --- | --- | --- |
-| K4 | ... | ... |
+| Id | Modul | Név | Leírás |
+| :---: | --- | --- | --- |
+| K1 | Felület | Tanuló hozzáadása | ... |
+| K2 | Felület | Tanuló szerkesztése | ... |
+| K3 | Felület | Tanuló törlése | ... |
+| K4 | Felület | Tanuló adatainak áttekintése | ... |
 
 ### Támogatott eszközök
 
