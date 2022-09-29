@@ -6,12 +6,12 @@
 ### 2.1 Projektszerepkörök, felelőségek:
    * Scrum masters: Szabó Gergő
    * Product owner: Szabó Gergő
-   * Üzleti szereplő:
+   * Üzleti szereplő: Tajti Tibor
      
 ### 2.2 Projektmunkások és felelőségek:
-   * Frontend:
-   * Backend:
-   * Tesztelés:
+   * Frontend: Mihály Balázs, Kaponya Martin, Szabó Zsolt, Négyesi Imre
+   * Backend: Mihály Balázs, Kaponya Martin, Szabó Zsolt, Négyesi Imre
+   * Tesztelés: Mihály Balázs, Kaponya Martin, Szabó Zsolt, Négyesi Imre
      
 ### 2.3 Ütemterv:
 
