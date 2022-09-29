@@ -4,8 +4,8 @@
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
-   * Scrum masters:
-   * Product owner: 
+   * Scrum masters: Szabó Gergő
+   * Product owner: Szabó Gergő
    * Üzleti szereplő:
      
 ### 2.2 Projektmunkások és felelőségek:
