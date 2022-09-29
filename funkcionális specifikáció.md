@@ -6,21 +6,24 @@ Jelenleg az iskolában azt, hogy kinek mi az adata, csak papír alapon tartottá
 
 ## 2. Vágyállomrendszer leírása
 
-A megrendelő egy olyan alkalmazást szeretne ami, segítené az ő ügyfeleit abban, hogy elérjék az általuk kínált autókat anélkül, hogy az ügyfél befáradna a kölcsönzőbe, ezzel biztosítani a rugalmasságot, gyorsaságot. A szoftver rendelője a későbbiekben valószínűleg továb szeretné fejlesztettni a meglévő applikációt, jelenleg kísérleteznek vele, milyen mértékű pozitív visszajelzéseket kapnak, később ennek megfelelően a szoftvert valószínűleg bővíteni kell egyéb funkciókkal.Az elérhető autók listázása mellett e megrendelő szeretné, ha gyorsan, egyszerűen lehetne autókat hozzáadni a kínálathoz, abban az esetben, ha bővíteni szeretné a flottát, valamint a meglévő autókat tudja módosítani, szükség esetén eltávolítani a megjelenítendő autók közül, erre egy külön oldalt szeretne, amihez csak ő fér hozzá. Fontos számára, hogy egyértelműek legyenek a gombok, a mezők, mit, hova kell beírni, vagy éppen hova, melyik gombra kell kattintani, az egyszerű kezelhetőséget támogatja. Nem szeretne több munkanapot eltölteni azzal, hogy megtanulja használni a szoftvert. A szoftvernek készen kell állnia arra, hogy bővíthető legyen, egyéb funkciókkal, a későbbiekben elképzelhető, hogy a megrendelő szeretne regisztrálási lehetőséget, a rendszeresen tőle bérlőknek kedvezményeket nyújtani, ezeket nyilvántartani.
+A megrendelő egy olyan alkalmazást szeretne ami, segítené az ő ügyfeleit abban, hogy elérjék a tanulók adatait anélkül, hogy a mappákba lefűzött papírokat kelljen átvizsgálni, ezzel biztosítani a rugalmasságot, gyorsaságot. A szoftvert kezdetleges állapotában is fel kell készíteni a későbbi fejleszthetőségre, ami az első használat utáni visszajelzések fényében valúsulhat meg. A már felvett tanulók listázása mellett e megrendelő szeretné, ha gyorsan, egyszerűen lehetne diákokat hozzáadni az adatbázishoz, abban az esetben, valamint a meglévő adatokat tudja módosítani, szükség esetén eltávolítani a listából. Egy egyszerűen átlátható programot kért, mert fontos számára, hogy egyértelműek legyenek a gombok, a mezők, mit, hova kell beírni. Nem szeretne több munkanapot eltölteni azzal, hogy megtanulja használni a szoftvert. A szoftvernek készen kell állnia arra, hogy bővíthető legyen, egyéb funkciókkal, a későbbiekben elképzelhető, hogy a megrendelő szeretne regisztrálási lehetőséget, a rendszeresen tőle bérlőknek kedvezményeket nyújtani, ezeket nyilvántartani.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
-A jelenlegi rendszerben az megrendelő ügyfeleinek, elkell menniük az autókölcsönző telephelyére, vagy el kell látogatniuk az autókölcsönző weboldalára, ahol láthatja milyen autó kínálattal rendelkeznek, ezek közül tud választani egyet. Ezután egy ott dolgozóval pontosan fixálják az adatokat, hogy mikortól kell, mennyi időre, a bérlési folyamat első szakasza ezzel végbe is zajlott. A második szakasza a bérlésnek akkor kezdődik amikor érte megy az előre egyeztetett autóért, ilyenkor keresnie kell egy ott dolgozót, aki segít neki átadja a szükséges dolgokat, ezután használhatja az autót, majd végül a bérlés lejáratának napján visszahozza az autót.
+A jelenlegi rendszerben az megrendelőnek be kell menni az egyetem titkárságára, minden adatot innen tud megszerezni. Itt kell eligazodni a több évtizednyi lefűzött irat között, ami hosszú időt vesz igénybe, illetve pontatlansághoz vezethet. Az adatfeltöltés is manuálisan történik, az ottdolgozók az írott lapokról egyesével viszik be az adatokat a rendszerbe.
 
 ## 4. Igényelt üzleti folyamatok modellje
 
-A megrendelő ügyfele otthon, vagy akár a buszon ülve is képes információt szeretni arról, hogy milyen autók lelhetők fel az autó kölcsönzőben, ezeket telefonon vagy akár e-mail-en is letudja foglalni egy előre meghatározott időpontra. Az előre fixált időponton az ügyfél elfárad az autókölcsönzőbe, ahol az ott dolgozók már várni fogják. Elkísérik az általa kiválasztott autóhoz, majd átadják a szükséges dolgokat. Ezután az ügyfél használhatja az autót. A bérlési idő lejáratának napján visszahozza.
+A megrendelő otthon, vagy akár a buszon ülve is képes információt szerezni a diákokról. Bárhonnan hozzá tud adni új diákokat, módosíthatja a már meglévő adatokat, illetve szükség esetén törölhet is az adatbázisból, ezzel gyorsítva az információ áramlását, hiszen nem kell megvárni az adatrögzítők munkáját, hanem azonnal a friss, naprakész listával dolgozhat mindenki.
 
 ## 5. Követelménylista
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 | ...| ... | ... |
+| K1 | Felület | Tanuló hozzáadása | ... |
+| K2 | Felület | Tanuló szerkesztése | ... |
+| K3 | Felület | Tanuló törlése | ... |
+| K4 | Felület | Tanuló adatainak áttekintése | ... |
 
 ## 6. Használati esetek
 
@@ -37,8 +40,9 @@ Az admin ezeket módosítani és újabb adatokkal is tudja bővíteni az adatbá
 
 ## 10. Funkció - követelmény megfeleltetése
 
-| Id | Követelmény | Funkció |
-| :---: | --- | --- |
-| K4 | ... | ... |
+K1: A felhasználók a weblapon a "Add Students" gombra kattintva a diák adatait (név, email, telefonszám, szak) megadva felveheti a listába.
+K2: A felhasználók a weblapon a "Edit" gombra kattintva módosíthatja az adatokat (név, email, telefonszám, szak).
+K3: A weblapon szereplő "Delete" gombbal a diák minden adatát, illetve a diák mezőjét is törölhetik.
+K4: A "View" gomb megnyomásával a diák adatai válnak áttekinthetővé. Ebben a funkcióban nem lehet sem szerkeszteni, sem törölni.
 
 ## 11 Fogalomszótár
