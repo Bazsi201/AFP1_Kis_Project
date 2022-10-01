@@ -112,9 +112,8 @@ például. Teszt #01 | Regisztráció | A felhasználó az adatok megadásával 
 
 ## 12. Telepítési terv
 
-Fizikai telepítési terv: 
-
-Szoftver telepítési terv: 
+Mivel egy webes felületről van szó, ezért nem szükséges semmit a számítógépre telepíteni, elegendő egy tetszőleges böngésző és internetkapcsolat.
+Az URL-t ismerve bárki begépelheti a böngésző keresőjébe és elérheti az oldalt.
 
 ## 13. Karbantartási terv
 
