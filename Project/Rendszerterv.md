@@ -117,9 +117,6 @@ Az URL-t ismerve bárki begépelheti a böngésző keresőjébe és elérheti az
 
 ## 13. Karbantartási terv
 
-Fontos ellenőrizni:
-...
-
 Figyelembe kell venni a felhasználó által jött visszajelzést is a programmal kapcsolatban.
 Ha hibát talált, mielőbb orvosolni kell, lehet az:
 *	Működéssel kapcsolatos
