@@ -27,4 +27,6 @@ A megrendelő ügyfele otthon, vagy akár a buszon ülve is képes információt
 
 ## 7. Fogalomtár
 
-HTML(Hypertext Markup Language): A HTML egy olyan nyelv, melyet weboldalak elkészítésére használhatunk. Minden weboldal mögött HTML található.
+HTML (Hypertext Markup Language) : A HTML egy olyan nyelv, melyet weboldalak elkészítésére használhatunk. Minden weboldal mögött HTML található.
+
+PHP : egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére.
