@@ -10,6 +10,8 @@ Jelenleg az iskolában azt, hogy kinek mi az adata, csak papír alapon tartottá
 
 ## 3. Vágyálomrendszer
 
+A megrendelő egy olyan alkalamazást szeretne, ami megkönnyíti az adminisztrációt az iskola tanulóinak és a dolgozóinak is, illetve csökkenteni az iskola kiadását, hiszen rengeteg papírt felhasználva tudták eddig az adatbázist vezetni. Másrészről a környezetszennyezést is így legalább tudják csökkenteni, ami egy plusz pozitívum és pozitív példát mutat mint a diákoknak, mint a többi iskolának is.
+
 ## 4. Jelenlegi üzleti folyamatok modellje
 
 ## 5. Igényelt üzleti folyamatok modellje
