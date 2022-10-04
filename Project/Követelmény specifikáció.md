@@ -14,6 +14,8 @@ A megrendelő egy olyan alkalamazást szeretne, ami megkönnyíti az adminisztr�
 
 ## 4. Jelenlegi üzleti folyamatok modellje
 
+Jelenleg elég egyszerű módon, előreegyeztetett időpontban befáradt a diák, szülő a titkárságra, kért egy nyomtatványt és azt kitöltve tudták a diák adatait. Ezután bármi adatváltozás volt, mindig be kellett mennie valakinek, hogy értesítse az iskolát az adatváltozásról.
+
 ## 5. Igényelt üzleti folyamatok modellje
 
 A megrendelő ügyfele otthon, vagy akár a buszon ülve is képes információt szeretni arról, hogy milyen autók lelhetők fel az autó kölcsönzőben, ezeket telefonon vagy akár e-mail-en is letudja foglalni egy előre meghatározott időpontra. Az előre fixált időponton az ügyfél elfárad az autókölcsönzőbe, ahol az ott dolgozók már várni fogják. Elkísérik az általa kiválasztott autóhoz, majd átadják a szükséges dolgokat. Ezután az ügyfél használhatja az autót. A bérlési idő lejáratának napján visszahozza.
