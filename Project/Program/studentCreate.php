@@ -22,6 +22,10 @@
                                 <label>Student phone</label>
                                 <input type="text" name="phone" class="form-control">
                             </div>
+                            <div class="mb-3">
+                                <label>Student course</label>
+                                <input type="text" name="course" class="form-control">
+                            </div>
                         </form>
                     </div>
                 </div>
