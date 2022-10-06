@@ -26,6 +26,7 @@ A megrendelő otthon, vagy akár a buszon ülve is képes információt szerezni
 | K4 | Felület | Tanuló adatainak áttekintése | ... |
 
 ## 6. Használati esetek
+A tanár a diákról tárol az alkalmazásban adatokat, szerkeszti, új diákot visz fel, már nem az adott iskolában lévő diákot töröl az adatbázisból! A diák ezeket az adatokat ellenörzi az adatbázisban és jogosult az adatmódosításra, ha változás, vagy hibás adat felvitele történt! 
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
