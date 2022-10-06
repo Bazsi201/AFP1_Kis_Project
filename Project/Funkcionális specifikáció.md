@@ -28,7 +28,7 @@ A megrendelő otthon, vagy akár a buszon ülve is képes információt szerezni
 ## 6. Használati esetek
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
-
+K1, K2, K3, K4: A felhasználó gombok segítségével tud adatokat módositani, felvinni, törölni és megtekinteni!
 ## 8. Képernyőtervek
 
 ![képnév](gitlink ahol a kép van)
