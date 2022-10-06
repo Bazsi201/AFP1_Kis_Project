@@ -6,7 +6,7 @@ Jelenleg az iskolában azt, hogy kinek mi az adata, csak papír alapon tartottá
 
 ## 2. Vágyállomrendszer leírása
 
-A megrendelő egy olyan alkalmazást szeretne ami, segítené az ő ügyfeleit abban, hogy elérjék a tanulók adatait anélkül, hogy a mappákba lefűzött papírokat kelljen átvizsgálni, ezzel biztosítani a rugalmasságot, gyorsaságot. A szoftvert kezdetleges állapotában is fel kell készíteni a későbbi fejleszthetőségre, ami az első használat utáni visszajelzések fényében valúsulhat meg. A már felvett tanulók listázása mellett e megrendelő szeretné, ha gyorsan, egyszerűen lehetne diákokat hozzáadni az adatbázishoz, abban az esetben, valamint a meglévő adatokat tudja módosítani, szükség esetén eltávolítani a listából. Egy egyszerűen átlátható programot kért, mert fontos számára, hogy egyértelműek legyenek a gombok, a mezők, mit, hova kell beírni. Nem szeretne több munkanapot eltölteni azzal, hogy megtanulja használni a szoftvert. A szoftvernek készen kell állnia arra, hogy bővíthető legyen, egyéb funkciókkal, a későbbiekben elképzelhető, hogy a megrendelő szeretne regisztrálási lehetőséget, a rendszeresen tőle bérlőknek kedvezményeket nyújtani, ezeket nyilvántartani.
+A megrendelő egy olyan alkalmazást szeretne ami, segítené az ő ügyfeleit abban, hogy elérjék a tanulók adatait anélkül, hogy a mappákba lefűzött papírokat kelljen átvizsgálni, ezzel biztosítani a rugalmasságot, gyorsaságot. A szoftvert kezdetleges állapotában is fel kell készíteni a későbbi fejleszthetőségre, ami az első használat utáni visszajelzések fényében valúsulhat meg. A már felvett tanulók listázása mellett e megrendelő szeretné, ha gyorsan, egyszerűen lehetne diákokat hozzáadni az adatbázishoz, abban az esetben, valamint a meglévő adatokat tudja módosítani, szükség esetén eltávolítani a listából. Egy egyszerűen átlátható programot kért, mert fontos számára, hogy egyértelműek legyenek a gombok, a mezők, mit, hova kell beírni. Nem szeretne több munkanapot eltölteni azzal, hogy megtanulja használni a szoftvert. A szoftvernek készen kell állnia arra, hogy bővíthető legyen, egyéb funkciókkal, a későbbiekben elképzelhető, hogy a megrendelő szeretne regisztrálási lehetőséget, a rendszeresen tőle bérlőknek kedvezményeket nyújtani, ezeket nyilvántartani. A megrendelő továbbá azt szeretné, hogy az alkalmazás alkalmazkodjon az adott eszközön lévő kijelző méretéhez, vagyis reszponzív legyen a felület!
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
@@ -26,9 +26,10 @@ A megrendelő otthon, vagy akár a buszon ülve is képes információt szerezni
 | K4 | Felület | Tanuló adatainak áttekintése | ... |
 
 ## 6. Használati esetek
+A tanár a diákról tárol az alkalmazásban adatokat, szerkeszti, új diákot visz fel, már nem az adott iskolában lévő diákot töröl az adatbázisból! A diák ezeket az adatokat ellenörzi az adatbázisban és jogosult az adatmódosításra, ha változás, vagy hibás adat felvitele történt! 
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
-
+K1, K2, K3, K4: A felhasználó gombok segítségével tud adatokat módositani, felvinni, törölni és megtekinteni!
 ## 8. Képernyőtervek
 
 ![képnév](gitlink ahol a kép van)
@@ -46,3 +47,6 @@ K3: A weblapon szereplő "Delete" gombbal a diák minden adatát, illetve a diá
 K4: A "View" gomb megnyomásával a diák adatai válnak áttekinthetővé. Ebben a funkcióban nem lehet sem szerkeszteni, sem törölni.
 
 ## 11 Fogalomszótár
+| Fogalom | Leírás |
+| :---: | --- |
+| Reszponzív felület | Az alkalmazás kompatibilis más elektronikus eszközökön is, így lehet használni számítógépről, tabletről, laptopról és telefonról is, mert alkalmazkodik az eszköz kijelzőjéhez! |
