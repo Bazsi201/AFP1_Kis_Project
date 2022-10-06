@@ -26,6 +26,9 @@
                                 <label>Student course</label>
                                 <input type="text" name="course" class="form-control">
                             </div>
+                            <div class="mb-3">
+                                <button type="submit" name="save_student" class="btn btn-primary">Save student</button>
+                            </div>
                         </form>
                     </div>
                 </div>
