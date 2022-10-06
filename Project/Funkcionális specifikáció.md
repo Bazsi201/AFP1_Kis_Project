@@ -29,7 +29,7 @@ A megrendelő otthon, vagy akár a buszon ülve is képes információt szerezni
 A tanár a diákról tárol az alkalmazásban adatokat, szerkeszti, új diákot visz fel, már nem az adott iskolában lévő diákot töröl az adatbázisból! A diák ezeket az adatokat ellenörzi az adatbázisban és jogosult az adatmódosításra, ha változás, vagy hibás adat felvitele történt! 
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
-
+K1, K2, K3, K4: A felhasználó gombok segítségével tud adatokat módositani, felvinni, törölni és megtekinteni!
 ## 8. Képernyőtervek
 
 ![képnév](gitlink ahol a kép van)
