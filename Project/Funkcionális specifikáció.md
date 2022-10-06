@@ -46,3 +46,6 @@ K3: A weblapon szereplő "Delete" gombbal a diák minden adatát, illetve a diá
 K4: A "View" gomb megnyomásával a diák adatai válnak áttekinthetővé. Ebben a funkcióban nem lehet sem szerkeszteni, sem törölni.
 
 ## 11 Fogalomszótár
+| Fogalom | Leírás |
+| :---: | --- |
+| Reszponzív felület | Az alkalmazás kompatibilis más elektronikus eszközökön is, így lehet használni számítógépről, tabletről, laptopról és telefonról is, mert alkalmazkodik az eszköz kijelzőjéhez! |
