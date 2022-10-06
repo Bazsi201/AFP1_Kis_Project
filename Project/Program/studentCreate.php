@@ -10,7 +10,10 @@
                     </div>
                     <div class="card-body">
                         <form action="code.php" method="POST">
-                            
+                            <div class="mb-3">
+                                <label>Student name</label>
+                                <input type="text" name="name" class="form-control">
+                            </div>
                         </form>
                     </div>
                 </div>
