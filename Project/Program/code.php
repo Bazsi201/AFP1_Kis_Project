@@ -36,6 +36,10 @@
                     include('includes/phoneExists.php');
                 }
             }
+            else
+            {
+                include('includes/emailExists.php');
+            }
         }
     }
 ?>
