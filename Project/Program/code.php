@@ -13,6 +13,7 @@
             $course = mysqli_real_escape_string($con,$_POST['course']);
 
             $checkEmailQuery = mysqli_query($con,"SELECT * FROM students WHERE email = '$email'");
+            $checkPhoneQuery = mysqli_query($con,"SELECT * FROM students WHERE phone = '$phone'");
         }
     }
 ?>
