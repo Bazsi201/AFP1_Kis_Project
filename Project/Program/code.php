@@ -24,6 +24,12 @@
                         header("Location: index.php");
                         exit(0);
                     }
+                    else
+                    {
+                        $_SESSION['message'] = "Student not created successfully.";
+                        header("Location: index.php");
+                        exit(0);
+                    }
                 }
             }
         }
