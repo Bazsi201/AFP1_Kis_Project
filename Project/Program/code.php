@@ -16,7 +16,7 @@
             $checkPhoneQuery = mysqli_query($con,"SELECT * FROM students WHERE phone = '$phone'");
             if (mysqli_num_rows($checkEmailQuery) == 0) {
                 if (mysqli_num_rows($checkPhoneQuery) == 0) {
-                    
+                    $query = "INSERT INTO students (name, email, phone, course) VALUES ('$name','$email','$phone','$course')";
                 }
             }
         }
