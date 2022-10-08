@@ -9,7 +9,7 @@
                 <div class="card">
                     <div class="card-header">
                     <h4>Student details
-
+                    <a href="studentCreate.php" class="btn btn-primary float-end">Add students</a>
                     </h4>
                         <div class="card-body">
                             <table class="table table-bordered table-striped align-middle" style="text-align:center">
