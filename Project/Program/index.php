@@ -19,6 +19,7 @@
                                         <th>Email</th>
                                         <th>Phone</th>
                                         <th>Course</th>
+                                        <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
