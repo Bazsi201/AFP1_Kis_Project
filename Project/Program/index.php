@@ -8,6 +8,9 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
+                    <h4>Student details
+
+                    </h4>
                         <div class="card-body">
                             <table class="table table-bordered table-striped align-middle" style="text-align:center">
                                 <thead>
