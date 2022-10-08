@@ -15,6 +15,7 @@
                             <table class="table table-bordered table-striped align-middle" style="text-align:center">
                                 <thead>
                                     <tr>
+                                        <th>Student name</th>
                                     </tr>
                                 </thead>
                                 <tbody>
