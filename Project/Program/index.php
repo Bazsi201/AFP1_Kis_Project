@@ -18,6 +18,7 @@
                                         <th>Student name</th>
                                         <th>Email</th>
                                         <th>Phone</th>
+                                        <th>Course</th>
                                     </tr>
                                 </thead>
                                 <tbody>
