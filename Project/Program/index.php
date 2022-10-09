@@ -28,6 +28,9 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                <?php
+                                    $query = "SELECT * FROM students";
+                                ?>
                                 </tbody>
                             </table>
                         </div>
