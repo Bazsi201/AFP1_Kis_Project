@@ -26,6 +26,9 @@
                                             <label>Student email</label>
                                             <p class="form-control"><?= $student['email']; ?></p>
                                             </div>
+                                            <div class="mb-3">
+                                            <label>Student phone</label>
+                                            </div>
                             }
                         }
                     ?>
