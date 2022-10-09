@@ -38,6 +38,7 @@
                                             ?>
                                                 <tr>
                                                     <td><?= $student['name']; ?></td>
+                                                    <td><?= $student['email']; ?></td>
                                                 </tr>
                                             <?php
                                         }
