@@ -39,6 +39,7 @@
                                                 <tr>
                                                     <td><?= $student['name']; ?></td>
                                                     <td><?= $student['email']; ?></td>
+                                                    <td><?= $student['phone']; ?></td>
                                                 </tr>
                                             <?php
                                         }
