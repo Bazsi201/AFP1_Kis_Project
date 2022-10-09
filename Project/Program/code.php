@@ -4,6 +4,7 @@
     if (isset($_POST['delete_student']))
     {
         $studentID = mysqli_real_escape_string($con,$_POST['delete_student']);
+        $query = "DELETE FROM students WHERE id = '$studentID'";
     }
 
     if (isset($_POST['update_student']))
