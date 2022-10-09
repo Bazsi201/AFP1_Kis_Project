@@ -22,6 +22,7 @@
                                             <input type="hidden" name="studentID" value="<?= $student['id']; ?>">
                                             <div class="mb-3">
                                             <label>Student name</label>
+                                            <input type="text" name="name" value="<?= $student['name']; ?>" class="form-control">
                                             </div>
                                         </form>
                                     <?php
