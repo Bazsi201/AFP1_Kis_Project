@@ -1,3 +1,7 @@
+<?php
+    require 'dbcon.php';
+?>
+
 <?php include('includes/header.php'); ?>
 
 <div class="container mt-5">
