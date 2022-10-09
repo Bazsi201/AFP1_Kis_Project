@@ -52,6 +52,10 @@
                                             <?php
                                         }
                                     }
+                                    else
+                                    {
+                                        echo "<h5>No record found!</h5>";
+                                    }
                                 ?>
                                 </tbody>
                             </table>
