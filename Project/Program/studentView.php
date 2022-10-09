@@ -34,6 +34,11 @@
                                             <label>Student course</label>
                                             <p class="form-control"><?= $student['course']; ?></p>
                                             </div>
+                                <?php
+                            }
+                            else
+                            {
+                                echo "<h4>No such record found!</h4>";
                             }
                         }
                     ?>
