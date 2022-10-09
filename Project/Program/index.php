@@ -7,7 +7,7 @@
 
 <div class="container mt-5">
 
-        <?php include('message.php'); ?>
+        <?php include('includes/message.php'); ?>
 
         <div class="row">
             <div class="col-md-12">
