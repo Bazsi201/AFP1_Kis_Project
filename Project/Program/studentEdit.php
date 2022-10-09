@@ -28,6 +28,9 @@
                                             <label>Student email</label>
                                             <input type="email" name="email" value="<?= $student['email']; ?>" class="form-control">
                                             </div>
+                                            <div class="mb-3">
+                                            <label>Student phone</label>
+                                            </div>
                                         </form>
                                     <?php
                                 }
