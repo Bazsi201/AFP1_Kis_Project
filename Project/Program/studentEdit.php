@@ -32,6 +32,9 @@
                                             <label>Student phone</label>
                                             <input type="text" name="phone" value="<?= $student['phone']; ?>" class="form-control">
                                             </div>
+                                            <div class="mb-3">
+                                            <label>Student course</label>
+                                            </div>
                                         </form>
                                     <?php
                                 }
