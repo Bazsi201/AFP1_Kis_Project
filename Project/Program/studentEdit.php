@@ -24,6 +24,9 @@
                                             <label>Student name</label>
                                             <input type="text" name="name" value="<?= $student['name']; ?>" class="form-control">
                                             </div>
+                                            <div class="mb-3">
+                                            <label>Student email</label>
+                                            </div>
                                         </form>
                                     <?php
                                 }
