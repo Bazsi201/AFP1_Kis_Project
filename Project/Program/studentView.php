@@ -20,6 +20,7 @@
                                 ?>
                                             <div class="mb-3">
                                             <label>Student name</label>
+                                            <p class="form-control"><?= $student['name']; ?></p>
                                             </div>
                             }
                         }
