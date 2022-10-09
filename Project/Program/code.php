@@ -21,6 +21,12 @@
                 {
                     $query = "UPDATE students SET name = '$name', email = '$email', phone = '$phone', course = '$course' WHERE id = '$studentID'";
                     $result = mysqli_query($con,$query);
+                    if ($result)
+                    {
+                        $_SESSION['message'] = "Student updated successfully.";
+                        header("Location: index.php");
+                        exit(0);
+                    }
                 }
             }
         }
