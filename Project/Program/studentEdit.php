@@ -12,6 +12,7 @@
                             if (isset($_GET['id']))
                             {
                                 $studentID = mysqli_real_escape_string($con, $_GET['id']);
+                                $query = "SELECT * FROM students WHERE id = '$studentID'";
                             }
                     ?>
                     </div>
