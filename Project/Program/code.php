@@ -12,6 +12,12 @@
             header("Location: index.php");
             exit(0);
         }
+        else
+        {
+            $_SESSION['message'] = "Student not deleted successfully.";
+            header("Location: index.php");
+            exit(0);
+        }
     }
 
     if (isset($_POST['update_student']))
