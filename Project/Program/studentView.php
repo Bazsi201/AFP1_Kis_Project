@@ -28,6 +28,7 @@
                                             </div>
                                             <div class="mb-3">
                                             <label>Student phone</label>
+                                            <p class="form-control"><?= $student['phone']; ?></p>
                                             </div>
                             }
                         }
