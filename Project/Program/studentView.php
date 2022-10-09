@@ -32,6 +32,7 @@
                                             </div>
                                             <div class="mb-3">
                                             <label>Student course</label>
+                                            <p class="form-control"><?= $student['course']; ?></p>
                                             </div>
                             }
                         }
