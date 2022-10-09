@@ -14,6 +14,10 @@
                                 $studentID = mysqli_real_escape_string($con, $_GET['id']);
                                 $query = "SELECT * FROM students WHERE id = '$studentID'";
                                 $result = mysqli_query($con,$query);
+                                if (mysqli_num_rows($result) > 0)
+                                {
+                                    
+                                }
                             }
                     ?>
                     </div>
