@@ -37,6 +37,7 @@
                                         {
                                             ?>
                                                 <tr>
+                                                    <td><?= $student['name']; ?></td>
                                                 </tr>
                                             <?php
                                         }
