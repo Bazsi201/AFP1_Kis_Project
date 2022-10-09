@@ -42,6 +42,10 @@
                                         </form>
                                     <?php
                                 }
+                                else
+                                {
+                                    echo "<h4>No such record found!</h4>";
+                                }
                             }
                     ?>
                     </div>
