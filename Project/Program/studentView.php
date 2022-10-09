@@ -22,6 +22,9 @@
                                             <label>Student name</label>
                                             <p class="form-control"><?= $student['name']; ?></p>
                                             </div>
+                                            <div class="mb-3">
+                                            <label>Student email</label>
+                                            </div>
                             }
                         }
                     ?>
