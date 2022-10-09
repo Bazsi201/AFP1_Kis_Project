@@ -31,6 +31,9 @@
                                 <?php
                                     $query = "SELECT * FROM students";
                                     $result = mysqli_query($con,$query);
+                                    if (mysqli_num_rows($result) > 0)
+                                    {
+                                    }
                                 ?>
                                 </tbody>
                             </table>
