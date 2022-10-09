@@ -34,6 +34,10 @@
                         exit(0);
                     }
                 }
+                else
+                {
+                    include('includes/phoneExists.php');
+                }
             }
         }
     }
