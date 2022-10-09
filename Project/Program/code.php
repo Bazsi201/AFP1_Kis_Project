@@ -5,6 +5,7 @@
     {
         $studentID = mysqli_real_escape_string($con,$_POST['delete_student']);
         $query = "DELETE FROM students WHERE id = '$studentID'";
+        $result = mysqli_query($con,$query);
     }
 
     if (isset($_POST['update_student']))
