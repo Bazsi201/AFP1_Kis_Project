@@ -1,6 +1,7 @@
 <?php
 
     session_start();
+    require 'dbcon.php';
 ?>
 
 <?php include('includes/header.php'); ?>
