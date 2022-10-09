@@ -27,6 +27,12 @@
                         header("Location: index.php");
                         exit(0);
                     }
+                    else
+                    {
+                        $_SESSION['message'] = "Student not updated successfully.";
+                        header("Location: index.php");
+                        exit(0);
+                    }
                 }
             }
         }
