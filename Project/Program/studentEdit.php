@@ -36,6 +36,9 @@
                                             <label>Student course</label>
                                             <input type="text" name="course" value="<?= $student['course']; ?>" class="form-control">
                                             </div>
+                                            <div class="mb-3">
+                                                <button type="submit" name="update_student" class="btn btn-primary">Update student</button>
+                                            </div>
                                         </form>
                                     <?php
                                 }
