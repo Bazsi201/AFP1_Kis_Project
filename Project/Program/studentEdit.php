@@ -34,6 +34,7 @@
                                             </div>
                                             <div class="mb-3">
                                             <label>Student course</label>
+                                            <input type="text" name="course" value="<?= $student['course']; ?>" class="form-control">
                                             </div>
                                         </form>
                                     <?php
