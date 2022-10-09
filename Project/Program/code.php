@@ -19,7 +19,7 @@
             {
                 if (mysqli_num_rows($checkPhoneQuery) == 0)
                 {
-                    
+                    $query = "UPDATE students SET name = '$name', email = '$email', phone = '$phone', course = '$course' WHERE id = '$studentID'";
                 }
             }
         }
