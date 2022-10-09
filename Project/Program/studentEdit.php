@@ -30,6 +30,7 @@
                                             </div>
                                             <div class="mb-3">
                                             <label>Student phone</label>
+                                            <input type="text" name="phone" value="<?= $student['phone']; ?>" class="form-control">
                                             </div>
                                         </form>
                                     <?php
