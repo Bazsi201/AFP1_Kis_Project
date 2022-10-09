@@ -15,6 +15,10 @@
 
             $checkEmailQuery = mysqli_query($con, "SELECT * FROM students WHERE id != '$studentID' AND email = '$email'");
             $checkPhoneQuery = mysqli_query($con, "SELECT * FROM students WHERE id != '$studentID' AND phone = '$phone'");
+            if (mysqli_num_rows($checkEmailQuery) == 0)
+            {
+                
+            }
         }
     }
 
