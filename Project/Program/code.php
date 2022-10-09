@@ -9,6 +9,7 @@
         else {
             $studentID = mysqli_real_escape_string($con,$_POST['studentID']);
             $name = mysqli_real_escape_string($con,$_POST['name']);
+            $email = mysqli_real_escape_string($con,$_POST['email']);
         }
     }
 
