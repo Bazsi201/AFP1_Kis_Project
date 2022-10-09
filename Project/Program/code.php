@@ -17,7 +17,10 @@
             $checkPhoneQuery = mysqli_query($con, "SELECT * FROM students WHERE id != '$studentID' AND phone = '$phone'");
             if (mysqli_num_rows($checkEmailQuery) == 0)
             {
-                
+                if (mysqli_num_rows($checkPhoneQuery) == 0)
+                {
+                    
+                }
             }
         }
     }
