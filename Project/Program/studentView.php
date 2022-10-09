@@ -17,6 +17,10 @@
                             if (mysqli_num_rows($result) > 0)
                             {
                                 $student = mysqli_fetch_array($result);
+                                ?>
+                                            <div class="mb-3">
+                                            <label>Student name</label>
+                                            </div>
                             }
                         }
                     ?>
