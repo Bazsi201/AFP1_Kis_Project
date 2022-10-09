@@ -3,7 +3,7 @@
 
     if (isset($_POST['delete_student']))
     {
-        
+        $studentID = mysqli_real_escape_string($con,$_POST['delete_student']);
     }
 
     if (isset($_POST['update_student']))
