@@ -17,6 +17,11 @@
                                 if (mysqli_num_rows($result) > 0)
                                 {
                                     $student = mysqli_fetch_array($result);
+                                    ?>
+                                        <form action="code.php" method="POST">
+                                            <input type="hidden" name="studentID" value="<?= $student['id']; ?>">
+                                        </form>
+                                    <?php
                                 }
                             }
                     ?>
