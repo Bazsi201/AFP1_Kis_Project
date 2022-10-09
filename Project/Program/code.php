@@ -12,6 +12,8 @@
             $email = mysqli_real_escape_string($con,$_POST['email']);
             $phone = mysqli_real_escape_string($con,$_POST['phone']);
             $course = mysqli_real_escape_string($con,$_POST['course']);
+
+            $checkEmailQuery = mysqli_query($con, "SELECT * FROM students WHERE id != '$studentID' AND email = '$email'");
         }
     }
 
