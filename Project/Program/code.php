@@ -14,6 +14,7 @@
             $course = mysqli_real_escape_string($con,$_POST['course']);
 
             $checkEmailQuery = mysqli_query($con, "SELECT * FROM students WHERE id != '$studentID' AND email = '$email'");
+            $checkPhoneQuery = mysqli_query($con, "SELECT * FROM students WHERE id != '$studentID' AND phone = '$phone'");
         }
     }
 
