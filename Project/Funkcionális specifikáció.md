@@ -32,7 +32,11 @@ A tanár a diákról tárol az alkalmazásban adatokat, szerkeszti, új diákot 
 K1, K2, K3, K4: A felhasználó gombok segítségével tud adatokat módositani, felvinni, törölni és megtekinteni!
 ## 8. Képernyőtervek
 
-![képnév](gitlink ahol a kép van)
+**Főoldal/Tanulók listázása**
+![főoldal](../Project/Pictures/fooldal.png)
+
+**Új tanuló hozzáadása az adatbázishoz**
+![tanuló hozzáadó felület](../Project/Pictures/tanulo_hozzadasa_felulet.png)
 
 ## 9. Forgatókönyvek
 
