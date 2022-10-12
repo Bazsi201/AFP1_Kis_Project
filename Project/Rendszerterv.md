@@ -102,7 +102,7 @@ Mivel egy webes felületet készítünk, ezért elegendő egy számítógép vag
 
 
 *Szerkezet*
-![Képernyőterv](../Pictures/adatbazis_szerkezet.png)
+![Képernyőterv](../Project/Pictures/adatbazis_szerkezet.png)
 
 *DSL*
 
