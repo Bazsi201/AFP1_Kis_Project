@@ -44,22 +44,18 @@ A Top G's nevű csapat feladata, egy olyan alkalmazás fejlesztése, ami egy isk
 
 ## 4. Követelmények
 
-### Funkcionális követelmények
-
-| ID | Megnevezés | Leírás |
-| --- | --- | --- |
-| K1 | ... | ... |
-
-### Nemfunkcionális követelmények
+### funkcionális követelmények
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 | Felület | Tanuló hozzáadása | ... |
-| K2 | Felület | Tanuló szerkesztése | ... |
-| K3 | Felület | Tanuló törlése | ... |
-| K4 | Felület | Tanuló adatainak áttekintése | ... |
+| K1 | Felület | Tanuló hozzáadása | Tanulót tudunk felvinni az adazbázisba |
+| K2 | Felület | Tanuló szerkesztése | Tanuló adatait tudjuk megváltoztatni az adazbázisba |
+| K3 | Felület | Tanuló törlése | Tanulót tudunk törölni az adazbázisból  |
+| K4 | Felület | Tanuló adatainak áttekintése | Egy keresett tanuló adatát tudjuk megtekinteni |
 
 ### Támogatott eszközök
+
+Mivel egy webes felületet készítünk, ezért elegendő egy számítógép vagy bármilyen okos eszköz amin van internetkapcsolat.
 
 ## 5. Funkcionális terv
 
