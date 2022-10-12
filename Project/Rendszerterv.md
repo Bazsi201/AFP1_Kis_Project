@@ -80,15 +80,11 @@ Mivel egy webes felületet készítünk, ezért elegendő egy számítógép vag
 ### Fejlesztő eszközök
 
 
-## 8. Architekturális terv
+## 7. Architekturális terv
 
-### Webszerver
+A rendszer tökéletes működéséhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A bootstrap felel a reszponzív webdesign-ért. A backend php alapon nyugszik.
 
-### Adatbázis rendszer
-
-### A program elérése, kezelése
-
-## 9. Adatbázis terv
+## 8. Adatbázis terv
 
 ### *Tábla*
 - *students:* Az adatbázisba felvitt tanulók
@@ -123,21 +119,21 @@ ALTER TABLE `students`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
-## 10. Implementációs terv
+## 9. Implementációs terv
 
 A webes felület HTML, CSS és PHP nyelven fog elkészülni. A nem egymáshoz kapcsolódó funkciókat amennyire csak lehet, elkülönítjük, úgy csatoljuk egymáshoz ezzel is egy átláthatóbb, könnyebben változtatható lesz a source code-unk. Az adatokat MYSQL adatbázisban fogjuk tárolni.
 
-## 11. Tesztterv
+## 10. Tesztterv
 
 A tesztelések célja, hogy meggyőződjünk a felület gombjainak, beviteli mezőinek, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, különfile-ba dokumentálni fogja.
 
 
-## 12. Telepítési terv
+## 11. Telepítési terv
 
 Mivel egy webes felületről van szó, ezért nem szükséges semmit a számítógépre telepíteni, elegendő egy tetszőleges böngésző és internetkapcsolat.
 Az URL-t ismerve bárki begépelheti a böngésző keresőjébe és elérheti az oldalt.
 
-## 13. Karbantartási terv
+## 12. Karbantartási terv
 
 Figyelembe kell venni a felhasználó által jött visszajelzést is a programmal kapcsolatban.
 Ha hibát talált, mielőbb orvosolni kell, lehet az:
