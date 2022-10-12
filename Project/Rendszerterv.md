@@ -71,13 +71,11 @@ Mivel egy webes felületet készítünk, ezért elegendő egy számítógép vag
 
 ## 6. Fizikai környezet
 
-### Vásárolt softwarekomponensek és külső rendszerek
-
-### Hardver topológia
-
-### Fizikai alrendszerek
-
-### Fejlesztő eszközök
+- **Az alkalmazás csak web platformra készül, MySQL adatbázissal lesz futtatva.**
+  - **Nincsenek megvásárolt komponensek.**
+  - **Fejlesztői eszközök:**
+    - **Visual Studio Code**
+    - **XAMPP**
 
 
 ## 7. Architekturális terv
