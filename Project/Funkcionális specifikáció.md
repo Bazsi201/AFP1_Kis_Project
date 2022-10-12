@@ -50,3 +50,4 @@ K4: A "View" gomb megnyomásával a diák adatai válnak áttekinthetővé. Ebbe
 | Fogalom | Leírás |
 | :---: | --- |
 | Reszponzív felület | Az alkalmazás kompatibilis más elektronikus eszközökön is, így lehet használni számítógépről, tabletről, laptopról és telefonról is, mert alkalmazkodik az eszköz kijelzőjéhez! |
+| UML | Unified Modeling Language |
