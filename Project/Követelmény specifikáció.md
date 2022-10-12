@@ -24,10 +24,10 @@ A megrendelő ügyfele otthon, vagy akár a buszon ülve is képes információt
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 | Felület | Tanuló hozzáadása | ... |
-| K2 | Felület | Tanuló szerkesztése | ... |
-| K3 | Felület | Tanuló törlése | ... |
-| K4 | Felület | Tanuló adatainak áttekintése | ... |
+| K1 | Felület | Tanuló hozzáadása | Tanulót tudunk felvinni az adazbázisba |
+| K2 | Felület | Tanuló szerkesztése | Tanuló adatait tudjuk megváltoztatni az adazbázisba |
+| K3 | Felület | Tanuló törlése | Tanulót tudunk törölni az adazbázisból |
+| K4 | Felület | Tanuló adatainak áttekintése | Egy keresett tanuló adatát tudjuk megtekinteni |
 
 ## 7. Fogalomtár
 
