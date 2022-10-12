@@ -38,9 +38,7 @@ A Top G's nevű csapat feladata, egy olyan alkalmazás fejlesztése, ami egy isk
 
 ## 3. Üzleti folyamatok modellje
 
-### 3.1 Üzleti szereplők
-
-### 3.2 Üzleti folyamatok
+![Üzletifolyamat](../Project/Pictures/uzleti_folyamatok_modellje.png)
 
 ## 4. Követelmények
 
