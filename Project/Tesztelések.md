@@ -22,3 +22,12 @@
 | Teszt #02 | Kitöltetlen űrlap beküldése | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak, hogy mi a gond. | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak, hogy mi a gond.| Nem találtam problémát. |
 | Teszt #03 | Már létező e-mail cím hozzáadása | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát.| Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát. | Nem találtam problémát. |
 | Teszt #04 | Már létező telefonszám hozzáadása | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát. | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát. | Nem találtam problémát. |
+
+*Tesztelő:* Szabó Zsolt
+*Tesztelés dátuma:* 2022.október.05.
+| Tesztszám | Rövid leírás                     | Várt eredmény                                                                   | Eredmény                                                                       | Megjegyzés                |
+|-----------|----------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------|
+| Teszt #01 | Kitöltött űrlap beküldése | Művelet végrehajtódik. Adatbázisba feltöltés, aztán főoldalra visszaírányítás, felhasználó értesítése a sikerességről. | Művelet végrehajtódik. Adatbázisba feltöltés, aztán főoldalra visszaírányítás, felhasználó értesítése a sikerességről | Nem találtam problémát. |
+| Teszt #02 | Back gomb lenyomása | Művelet végrehajtódik, főoldalra visszairányítás. | Művelet végrehajtódik, főoldalra visszairányítás. | Nem találtam problémát.|
+| Teszt #03 | Adatbázisból adatok megjelenítés a főoldalon | Művelet végrehajtódik. Adatok sikeres megjelneítése, amennyiben van. | Művelet végrehajtódik. Adatok sikeres megjelneítése, amennyiben van. | Nem találtam problémát. |
+| Teszt #04 | Edit gomb lenyomása | Művelet végrehajtódik. Átírányítás a szerkesztő oldalra, tanuló adatainak megjelenítése szerkesztésre. | Művelet végrehajtódik. Átírányítás a szerkesztő oldalra, tanuló adatainak megjelenítése szerkesztésre. | Nem találtam problémát. |
