@@ -28,7 +28,13 @@ A Top G's nevű csapat feladata, egy olyan alkalmazás fejlesztése, ami egy isk
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |                2 |                   2 |
 
 ### 2.4 Mérföldkövek:
-   * Prototípus átadása
+
+ - 09.26 Rendszerterv
+ - 09.29 Funkcionális specifikáció
+ - 09.29 Követelmény specifikáció
+ - 10.03 Adatbázis kialakítása
+ - 10.09 Frontend design megtervezése
+ - 10.09 Backend funkciók elkészítése
 
 ## 3. Üzleti folyamatok modellje
 
