@@ -92,6 +92,39 @@ Mivel egy webes felületet készítünk, ezért elegendő egy számítógép vag
 
 ## 9. Adatbázis terv
 
+### *Tábla*
+- *students:* Az adatbázisba felvitt tanulók
+  - *id:* Azonosító szám, a tanuló egyedi azonosítója
+  - *name:* A tanuló neve
+  - *email:* A tanuló email címe
+  - *phone:* A tanuló telefonszáma
+  - *course:* Szak megnevezése
+
+
+*Szerkezet*
+![Képernyőterv](Project/Pictures/adatbazis_szerkezet.png)
+
+*DSL*
+
+
+CREATE TABLE `students` (
+  `id` int(11) NOT NULL,
+  `name` varchar(191) NOT NULL,
+  `email` varchar(191) NOT NULL,
+  `phone` varchar(191) NOT NULL,
+  `course` varchar(191) NOT NULL
+)
+
+INSERT INTO `students` (`id`, `name`, `email`, `phone`, `course`) VALUES
+(1, 'Balazs Mihaly', 'm.bazsi@gmail.com', '+36302561440', 'PTI bsc.');
+
+ALTER TABLE `students`
+  ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `students`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+COMMIT;
+
 ## 10. Implementációs terv
 
 A webes felület HTML, CSS és PHP nyelven fog elkészülni. A nem egymáshoz kapcsolódó funkciókat amennyire csak lehet, elkülönítjük, úgy csatoljuk egymáshoz ezzel is egy átláthatóbb, könnyebben változtatható lesz a source code-unk. Az adatokat MYSQL adatbázisban fogjuk tárolni.
