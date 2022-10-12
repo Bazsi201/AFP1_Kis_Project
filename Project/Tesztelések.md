@@ -13,3 +13,12 @@
  | View gomb lenyomása | Tanuló adatainak megjelenítése, áttekintése. | 
 
 #### Ezeket a teszteseteket végrehalyatani a legtöbb kombinációval
+
+*Tesztelő:* Kaponya Martin
+*Tesztelés dátuma:* 2022.október.01.
+| Tesztszám | Rövid leírás                     | Várt eredmény                                                                   | Eredmény                                                                       | Megjegyzés                |
+|-----------|----------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------|
+| Teszt #01 | Add student gomb megnyomása | Művelet végrehajtódik. Átirányítás a megfelelő oldalra. | Művelet  végrehajtódik. Átirányítás a megfelelő oldalra. | Nem találtam problémát. |
+| Teszt #02 | Kitöltetlen űrlap beküldése | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak, hogy mi a gond. | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak, hogy mi a gond.| Nem találtam problémát. |
+| Teszt #03 | Már létező e-mail cím hozzáadása | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát.| Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát. | Nem találtam problémát. |
+| Teszt #04 | Már létező telefonszám hozzáadása | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát. | Művelet nem hajtódik végre. Üzenetben jelezni a felhasználónak a problémát. | Nem találtam problémát. |
