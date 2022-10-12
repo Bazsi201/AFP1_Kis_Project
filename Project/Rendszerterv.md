@@ -61,7 +61,15 @@ Mivel egy webes felületet készítünk, ezért elegendő egy számítógép vag
 
 ### 5.1 Rendszerszereplők
 
+- felhasználó
+
 ### 5.2 Menühierarchiák
+
+  - Felhasználó
+    - Adatbázist bővítheti.
+    - Törölhet az adatbázisból.
+    - Módosíthat az adatbázisban szereplő tanuló adatain.
+    - Kereshet az adatbázisból.
 
 ## 6. Fizikai környezet
 
