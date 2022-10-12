@@ -20,10 +20,10 @@ A megrendelő otthon, vagy akár a buszon ülve is képes információt szerezni
 
 | Id | Modul | Név | Leírás |
 | :---: | --- | --- | --- |
-| K1 | Felület | Tanuló hozzáadása | ... |
-| K2 | Felület | Tanuló szerkesztése | ... |
-| K3 | Felület | Tanuló törlése | ... |
-| K4 | Felület | Tanuló adatainak áttekintése | ... |
+| K1 | Felület | Tanuló hozzáadása | Tanulót tudunk felvinni az adazbázisba |
+| K2 | Felület | Tanuló szerkesztése | Tanuló adatait tudjuk megváltoztatni az adazbázisba |
+| K3 | Felület | Tanuló törlése | Tanulót tudunk törölni az adazbázisból |
+| K4 | Felület | Tanuló adatainak áttekintése | Egy keresett tanuló adatát tudjuk megtekinteni |
 
 ## 6. Használati esetek
 A tanár a diákról tárol az alkalmazásban adatokat, szerkeszti, új diákot visz fel, már nem az adott iskolában lévő diákot töröl az adatbázisból! A diák ezeket az adatokat ellenörzi az adatbázisban és jogosult az adatmódosításra, ha változás, vagy hibás adat felvitele történt! 
